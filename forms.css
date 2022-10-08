@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(49, 56, 56);
+  font-family: "raleway", sans-serif;
+}
+
+main {
+  margin-top: 100px;
+}
+
+main h1 {
+  text-align: center;
+  color: rgb(34, 29, 29);
+  margin: 1.5rem;
+}
+
+form {
+  width: 30rem;
+  margin: 3rem auto;
+  background-color:lightgrey;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+section h2 {
+    color: black;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  color: black;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border: 1px solid rgb(186, 175, 175);
+  padding: 0.25rem;
+  color: rgb(61, 58, 58);
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  background-color: aliceblue;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-control-line {
+  display: flex;
+}
+
+.form-control-line input {
+  width: auto;
+  margin: 0px;
+  margin-right: 0.5rem;
+}
+
+.prof {
+  margin-top: 1rem;
+}
+
+.block {
+  display: flex;
+  justify-content: flex-end;
+  font: inherit;
+  color: white;
+}
+
+.block-content button {
+  margin-left: 0.5rem;
+  color: rgb(2, 5, 7);
+  border: 1px solid lightblue;
+  padding: 0.5rem 1.5rem;
+  border: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(83, 78, 78);
+}

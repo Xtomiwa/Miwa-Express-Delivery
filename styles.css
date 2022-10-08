@@ -1,0 +1,89 @@
+#descriptions {
+  height: 800px;
+  background-image: url(/images/Miwa\ express\ pic.png);
+  background-size: cover;
+  background-position: center center;
+  margin: 0px;
+}
+
+.description-content {
+  width: 900px;
+  position: relative;
+  top: 200px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(74, 68, 68, 0.8);
+  padding: 50px 0px;
+  border-radius: 8px;
+}
+
+.description-content h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.description-content p {
+  font-family:"Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin-bottom: 32px;
+}
+
+.description-content a {
+  text-decoration: none;
+  color: rgb(127, 112, 112);
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(238, 230, 220);
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.description-content a:hover {
+  background-color: rgb(169, 163, 155);
+}
+
+#highlights {
+  padding: 24px;
+  background: linear-gradient(0deg, rgb(93, 121, 115) ,rgb(238, 230, 220) );
+}
+
+#highlights h2 {
+  font-size: 30px;
+  color: rgb(40, 44, 43);
+  text-align: center;
+  margin: 24px 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#highlight-content {
+display: flex;
+width: 90%;
+justify-content: center;
+flex-direction: row;
+margin: 0 auto 40px auto;
+}
+
+.highlight {
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.highlight img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+}
+
+.highlight p {
+  color: rgb(40, 44, 43);
+  text-align: center;
+}

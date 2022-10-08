@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <title>Miwa Express Delivery</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="forms.css" />
+  </head>
+  <body>
+    <header>
+      <div id="page-logo">
+        <a href="/index.html"> <img src="/images/m2.png" alt="Miwa-logo" /> </a>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/places.html">Destinations</a>
+          </li>
+          <li>
+            <a href="/forms.html">Form</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>Contact Us</h1>
+      </div>
+      <form action="/" method="GET">
+      <section>
+        <h2>How can we help you ?</h2>
+        <ul>
+          <li class="profile">
+            <label for="user-name">Your Name</label>
+            <input
+              type="text"
+              name="username"
+              id="user-name"
+              required
+              placeholder="First Name Last Name"
+            />
+          </li>
+          <li class="profile">
+            <label for="user-email">Your Email Address</label>
+            <input
+              type="email"
+              name="useremail"
+              id="user-email"
+              required
+              placeholder="Your Email"
+            />
+          </li>
+          <li class="profile">
+            <label for="user-phone-no">Your Phone Number </label>
+            <input
+              type="tel"
+              name="userphoneno"
+              id="user-phone-no"
+              required
+              min="5"
+              placeholder="Your Phone no"
+            />
+          </li>
+          <li class="profile">
+            <label for="user-message">Pick up & Drop off location</label>
+            <textarea
+              name="usermessage"
+              id="user-message"
+              rows="8"
+              minlength="8"
+              maxlength="200"
+            ></textarea>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <label for="user-find us">How did you find us</label>
+        <select name="userfindus" id="user-find-us" required>
+          <option value="web-serach">Web Search</option>
+          <option value="word-of-mouth">Word Of Mouth</option>
+          <option value="others">Others</option>
+        </select>
+      </section>
+
+      <section>
+        <h2>How should we reply ?</h2>
+        <ul>
+          <li class="form-control-line">
+            <input
+              type="radio"
+              name="usercall"
+              id="user-call"
+              value="verify"
+              required
+            />
+            <label for="user-call">Call me</label>
+          </li>
+          <li class="form-control-line">
+          <input
+            type="radio"
+            name="usermail"
+            id="user-mail"
+            value="verify"
+            required
+          />
+          <label for="user-mail">Send me an email</label>
+          </li>
+          <li class="form-control-line">
+            <input
+              type="radio"
+              name="userreply"
+              id="user-reply"
+              value="verify"
+              required
+            />
+            <label for="user-reply">Don't reply</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="prof">
+        <div class="form-control-line">
+          <input
+            type="checkbox"
+            name="userterms"
+            id="user-terms"
+            value="terms"
+            required
+          />
+          <label for="user-terms">Accept Terms</label>
+        </div>
+      </section>
+
+      <section>
+        <ul class="block">
+          <li class="block-content">
+            <button type="reset">Clear</button>
+          </li>
+          <li class="block-content">
+            <button type="submit">Submit</button>
+          </li>
+        </ul>
+      </section>
+      </form>
+    </main>
+  </body>
+</html>
